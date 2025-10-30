@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Crounchy - Chicharrones al Barril</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Red Crounchy" class="logo-image">
+                <h1 class="brand-name">Red Crounchy</h1>
+            </div>
+            <div class="nav-right">
+                <button class="cart-btn" id="cartBtn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <div class="hero-content">
+            <h2>Chicharrones al Barril</h2>
+            <p>Crujientes, Jugosos y Deliciosos - La especialidad que te enamorará</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Productos Principales -->
+        <section class="products-section">
+            <h2 class="section-title">Nuestros Chicharrones</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Los productos se cargarán aquí con JavaScript -->
+            </div>
+        </section>
+
+        <!-- Toppings Section -->
+        <section class="toppings-section">
+            <h2 class="section-title">Complementos & Bebidas</h2>
+            <div class="toppings-grid" id="toppingsGrid">
+                <!-- Los toppings se cargarán aquí con JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Carrito Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Tu Pedido</h2>
+                <button class="close-btn" id="closeCartBtn">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Los items del carrito se cargarán aquí -->
+            </div>
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Domicilio:</span>
+                    <span>$5.000</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span id="total">$5.000</span>
+                </div>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Formulario de Pago Modal -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content checkout-modal">
+            <div class="modal-header">
+                <h2>Completa tu Pedido</h2>
+                <button class="close-btn" id="closeCheckoutBtn">&times;</button>
+            </div>
+            <form id="checkoutForm" class="checkout-form">
+                <div class="form-group">
+                    <label for="docType">Tipo de Documento</label>
+                    <select id="docType" required>
+                        <option value="">Selecciona un tipo</option>
+                        <option value="CC">Cédula de Ciudadanía</option>
+                        <option value="TI">Tarjeta de Identidad</option>
+                        <option value="CE">Cédula de Extranjería</option>
+                        <option value="PA">Pasaporte</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="docNumber">Número de Documento</label>
+                    <input type="text" id="docNumber" placeholder="Ej: 1234567890" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullName">Nombres y Apellidos</label>
+                    <input type="text" id="fullName" placeholder="Ej: Juan Pérez García" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Dirección</label>
+                    <input type="text" id="address" placeholder="Ej: Calle 5 #10-20, Apto 301" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" placeholder="Ej: 3001234567" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="paymentMethod">Método de Pago</label>
+                    <select id="paymentMethod" required>
+                        <option value="">Selecciona un método</option>
+                        <option value="Efectivo">Efectivo</option>
+                        <option value="Transferencia">Transferencia Bancaria</option>
+                        <option value="Nequi">Nequi</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="buy-btn">
+                    <i class="fas fa-check-circle"></i> Comprar
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Red Cronchi. Todos los derechos reservados.</p>
+        <p>Hecho con <i class="fas fa-heart"></i> para los amantes del chicharrón</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
