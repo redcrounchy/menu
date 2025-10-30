@@ -60,21 +60,21 @@ const products = [
 const toppings = [
     {
         id: 101,
-        name: 'Cabeza de Gato Sencillo',
+        name: 'Cabeza de Gato Sencillo 1 (Unidad)',
         price: 3500,
         icon: '🍖',
         image: 'cabeza-gato-sencillo-v2.jpg'
     },
     {
         id: 102,
-        name: 'Cabeza de Gato Especial',
+        name: 'Cabeza de Gato Especial 1 (Unidad)',
         price: 5000,
         icon: '🍗',
         image: 'cabeza-gato-especial-v2.jpg'
     },
     {
         id: 103,
-        name: 'Arepita Dulce de la Abuela',
+        name: 'Arepita Dulce de la Abuela 1 (Unidad)',
         price: 3500,
         icon: '🥞',
         image: 'arepita-dulce-sencilla-v2.jpg'
@@ -102,7 +102,7 @@ const toppings = [
     },
     {
         id: 107,
-        name: 'Bollo Sinuano',
+        name: 'Porcion bollo Sinuano',
         price: 3000,
         icon: '🥐',
         image: 'bollo-sinuano-v2.jpeg'
@@ -116,14 +116,14 @@ const toppings = [
     },
     {
         id: 109,
-        name: 'Chorizo Artesanal',
+        name: 'Chorizo Artesanal 1 (Unidad)',
         price: 5000,
         icon: '🌭',
         image: 'chorizo.jpg'
     },
     {
         id: 110,
-        name: 'Arepita Dulce de la Abuela Rellena de Queso',
+        name: 'Arepita Dulce de la Abuela Rellena de Queso 1 (Unidad)',
         price: 5000,
         icon: '🥞',
         image: 'arepita-dulce-v2.jpg'
