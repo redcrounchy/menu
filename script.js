@@ -7,7 +7,7 @@ const products = [
         price: 12000,
         description: 'Crujiente y jugoso, perfecto para probar',
         icon: '🥓',
-        image: 'chicharron-100g.jpeg'
+        image: 'chicharron-100g-v2.jpeg'
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const products = [
         price: 16000,
         description: 'La opción más popular, ideal para compartir',
         icon: '🥓',
-        image: 'chicharron-150g.jpeg'
+        image: 'chicharron-150g-v2.jpeg'
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const products = [
         price: 18000,
         description: 'La experiencia completa, para verdaderos amantes',
         icon: '🥓',
-        image: 'chicharron-170g.jpeg'
+        image: 'chicharron-170g-v2.jpeg'
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const products = [
         price: 13000,
         description: 'Tierna y jugosa, el sabor perfecto',
         icon: '🥩',
-        image: 'bondiola.jpeg'
+        image: 'bondiola-v2.jpeg'
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ const products = [
         price: 17000,
         description: 'La mejor opción para disfrutar',
         icon: '🥩',
-        image: 'bondiola.jpeg'
+        image: 'bondiola-v2.jpeg'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ const products = [
         price: 19000,
         description: 'La experiencia completa de bondiola',
         icon: '🥩',
-        image: 'bondiola.jpeg'
+        image: 'bondiola-v2.jpeg'
     }
 ];
 
@@ -63,21 +63,21 @@ const toppings = [
         name: 'Cabeza de Gato Sencillo',
         price: 3500,
         icon: '🍖',
-        image: 'cabeza-gato-sencillo.jpg'
+        image: 'cabeza-gato-sencillo-v2.jpg'
     },
     {
         id: 102,
         name: 'Cabeza de Gato Especial',
         price: 5000,
         icon: '🍗',
-        image: 'cabeza-gato-especial.jpg'
+        image: 'cabeza-gato-especial-v2.jpg'
     },
     {
         id: 103,
         name: 'Arepita Dulce de la Abuela',
         price: 3500,
         icon: '🥞',
-        image: 'arepita-dulce.jpg'
+        image: 'arepita-dulce-sencilla-v2.jpg'
     },
     {
         id: 104,
@@ -91,7 +91,7 @@ const toppings = [
         name: 'Café con Leche (Deslactosada)',
         price: 4000,
         icon: '☕',
-        image: 'cafe-leche.png'
+        image: 'cafe-leche-v2.png'
     },
     {
         id: 106,
@@ -105,7 +105,7 @@ const toppings = [
         name: 'Bollo Sinuano',
         price: 3000,
         icon: '🥐',
-        image: 'bollo-sinuano.jpeg'
+        image: 'bollo-sinuano-v2.jpeg'
     },
     {
         id: 108,
@@ -126,7 +126,7 @@ const toppings = [
         name: 'Arepita Dulce de la Abuela Rellena de Queso',
         price: 5000,
         icon: '🥞',
-        image: 'arepita-dulce.jpg'
+        image: 'arepita-dulce-v2.jpg'
     }
 ];
 
