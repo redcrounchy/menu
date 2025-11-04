@@ -4,7 +4,7 @@ const products = [
         id: 1,
         name: 'Chicharrón al Barril',
         weight: '100 gramos',
-        price: 12000,
+        price: 13000,
         description: 'Crujiente y jugoso, perfecto para probar',
         icon: '🥓',
         image: 'chicharron-100g-v2.jpeg'
@@ -13,7 +13,7 @@ const products = [
         id: 2,
         name: 'Chicharrón al Barril',
         weight: '150 gramos',
-        price: 16000,
+        price: 17000,
         description: 'La opción más popular, ideal para compartir',
         icon: '🥓',
         image: 'chicharron-150g-v2.jpeg'
@@ -22,7 +22,7 @@ const products = [
         id: 3,
         name: 'Chicharrón al Barril',
         weight: '170 gramos',
-        price: 18000,
+        price: 19000,
         description: 'La experiencia completa, para verdaderos amantes',
         icon: '🥓',
         image: 'chicharron-170g-v2.jpeg'
